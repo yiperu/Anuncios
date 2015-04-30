@@ -31,15 +31,20 @@ extension SKNode {
 }
 */
 
-class GameViewController: UIViewController {
+class GameViewController: UIViewController {  //GADInterstitialDelegate
   
   
-  var googleBannerView: GADBannerView!
-  
+  var googleBannerView: GADBannerView!       // Creamos variable de Banner
+//  var googleInterstitial: GADInterstitial!   // Creamos variable del Interstitial
 
     override func viewDidLoad() {
         super.viewDidLoad()
       
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+      
+
+      // MARK: - Codigo para Mostrar Banner
       googleBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
       
       googleBannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
@@ -60,10 +65,9 @@ class GameViewController: UIViewController {
       googleBannerView.frame = CGRectMake(0, view.bounds.height - googleBannerView.frame.size.height, googleBannerView.frame.size.width, googleBannerView.frame.size.height)
       
       self.view.addSubview(googleBannerView!)
-      
-      
-      
-      
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 /*
 // Todo Este Bloque Borramos
@@ -83,6 +87,35 @@ class GameViewController: UIViewController {
         }
 */
       
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+      
+/*
+      // MARK: - Codigo para Mostrar Intertitial
+      googleInterstitial = GADInterstitial()
+      googleInterstitial.adUnitID  = "ca-app-pub-3940256099942544/2934735716"
+      //googleInterstitial.delegate = self
+      
+      var request:GADRequest = GADRequest()
+      request.testDevices = ["2077ef9a63d2b398840261c8221a0c9a"]
+      
+      googleInterstitial.loadRequest(request)
+      
+      // PRODUCCION = = = = = = = =
+      //      googleBannerView.loadRequest(GADRequest())
+      // = = = = = = = = = = = = = =
+      
+      // DESARROLLO = = = = = = = =
+
+
+
+      
+      if googleInterstitial.isReady {
+        googleInterstitial.presentFromRootViewController(self)
+//        request()
+
+      }
+*/
       
       
       
