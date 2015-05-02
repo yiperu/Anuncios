@@ -15,7 +15,6 @@
 		1E2793971AF298370058EBAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2793961AF298370058EBAC /* Images.xcassets */; };
 		1E27939A1AF298370058EBAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E2793981AF298370058EBAC /* LaunchScreen.xib */; };
 		1E2793A61AF298370058EBAC /* PryAdMobSpritekitSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2793A51AF298370058EBAC /* PryAdMobSpritekitSwiftTests.swift */; };
-		1E2793B01AF298650058EBAC /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2793AF1AF298650058EBAC /* GoogleMobileAds.framework */; };
 		1E2793B21AF298900058EBAC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2793B11AF298900058EBAC /* AdSupport.framework */; };
 		1E2793B41AF298970058EBAC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2793B31AF298970058EBAC /* AudioToolbox.framework */; };
 		1E2793B61AF298AC0058EBAC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2793B51AF298AC0058EBAC /* AVFoundation.framework */; };
@@ -27,6 +26,7 @@
 		1E2793C21AF2992C0058EBAC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2793C11AF2992C0058EBAC /* MessageUI.framework */; };
 		1E2793C41AF299310058EBAC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2793C31AF299310058EBAC /* StoreKit.framework */; };
 		1E2793C61AF2993D0058EBAC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2793C51AF2993D0058EBAC /* SystemConfiguration.framework */; };
+		1E96C3B31AF5122300EFBDB3 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E96C3B21AF5122300EFBDB3 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 		1E27939F1AF298370058EBAC /* PryAdMobSpritekitSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PryAdMobSpritekitSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2793A41AF298370058EBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E2793A51AF298370058EBAC /* PryAdMobSpritekitSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryAdMobSpritekitSwiftTests.swift; sourceTree = "<group>"; };
-		1E2793AF1AF298650058EBAC /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../../tools_iOS/Google Mobile Ads SDK/GoogleMobileAdsSdkiOS-7.1.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		1E2793B11AF298900058EBAC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		1E2793B31AF298970058EBAC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1E2793B51AF298AC0058EBAC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +63,7 @@
 		1E2793C11AF2992C0058EBAC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1E2793C31AF299310058EBAC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1E2793C51AF2993D0058EBAC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1E96C3B21AF5122300EFBDB3 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E96C3B31AF5122300EFBDB3 /* GoogleMobileAds.framework in Frameworks */,
 				1E2793C61AF2993D0058EBAC /* SystemConfiguration.framework in Frameworks */,
 				1E2793C41AF299310058EBAC /* StoreKit.framework in Frameworks */,
 				1E2793C21AF2992C0058EBAC /* MessageUI.framework in Frameworks */,
@@ -82,7 +83,6 @@
 				1E2793B61AF298AC0058EBAC /* AVFoundation.framework in Frameworks */,
 				1E2793B41AF298970058EBAC /* AudioToolbox.framework in Frameworks */,
 				1E2793B21AF298900058EBAC /* AdSupport.framework in Frameworks */,
-				1E2793B01AF298650058EBAC /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +99,7 @@
 		1E27937D1AF298370058EBAC = {
 			isa = PBXGroup;
 			children = (
+				1E96C3B21AF5122300EFBDB3 /* GoogleMobileAds.framework */,
 				1E2793C51AF2993D0058EBAC /* SystemConfiguration.framework */,
 				1E2793C31AF299310058EBAC /* StoreKit.framework */,
 				1E2793C11AF2992C0058EBAC /* MessageUI.framework */,
@@ -110,7 +111,6 @@
 				1E2793B51AF298AC0058EBAC /* AVFoundation.framework */,
 				1E2793B31AF298970058EBAC /* AudioToolbox.framework */,
 				1E2793B11AF298900058EBAC /* AdSupport.framework */,
-				1E2793AF1AF298650058EBAC /* GoogleMobileAds.framework */,
 				1E2793881AF298370058EBAC /* PryAdMobSpritekitSwift */,
 				1E2793A21AF298370058EBAC /* PryAdMobSpritekitSwiftTests */,
 				1E2793871AF298370058EBAC /* Products */,
@@ -402,6 +402,11 @@
 					Mobile,
 					Ads,
 					"SDK/GoogleMobileAdsSdkiOS-7.1.0",
+					/Users/yiperu/Documents/tools_iOS/Google,
+					Mobile,
+					Ads,
+					"SDK/GoogleMobileAdsSdkiOS-7.1.0",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = PryAdMobSpritekitSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -419,6 +424,11 @@
 					Mobile,
 					Ads,
 					"SDK/GoogleMobileAdsSdkiOS-7.1.0",
+					/Users/yiperu/Documents/tools_iOS/Google,
+					Mobile,
+					Ads,
+					"SDK/GoogleMobileAdsSdkiOS-7.1.0",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = PryAdMobSpritekitSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -479,6 +489,7 @@
 				1E2793AB1AF298370058EBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E2793AC1AF298370058EBAC /* Build configuration list for PBXNativeTarget "PryAdMobSpritekitSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +498,7 @@
 				1E2793AE1AF298370058EBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

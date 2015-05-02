@@ -120,6 +120,30 @@ class GameViewController: UIViewController {  //GADInterstitialDelegate
       
       
     }
+  
+  
+  override func viewWillLayoutSubviews() {
+    
+    super.viewWillLayoutSubviews()
+    
+    if let skView = self.view as? SKView {
+      if skView.scene == nil {
+
+        let aspectRatio = skView.bounds.size.height / skView.bounds.size.width
+        let scene = GameScene(size:CGSize(width: 320, height: 320 * aspectRatio))
+        
+        skView.showsFPS = false
+        skView.showsNodeCount = false
+        skView.showsPhysics = false
+        skView.ignoresSiblingOrder = true
+        
+        scene.scaleMode = .AspectFill
+        
+        skView.presentScene(scene)
+        
+        
+      }}}
+  
 
     override func shouldAutorotate() -> Bool {
         return true
