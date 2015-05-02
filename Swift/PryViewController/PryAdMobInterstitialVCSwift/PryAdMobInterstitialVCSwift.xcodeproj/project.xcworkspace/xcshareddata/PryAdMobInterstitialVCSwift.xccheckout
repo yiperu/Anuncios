@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FE7BEBE7-AF4C-41D2-B87E-175751437A8A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>PryAdMobInterstitialVCSwift</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>721DF3EBD4A6441B84F9494582EFB42A9A00ABEE</key>
 		<string>github.com:yiperu/Anuncios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swift/PryViewController/PryAdMobInterstitialVCSwift/PryAdMobInterstitialVCSwift.xcodeproj/project.xcworkspace</string>
+	<string>Swift/PryViewController/PryAdMobInterstitialVCSwift/PryAdMobInterstitialVCSwift.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>721DF3EBD4A6441B84F9494582EFB42A9A00ABEE</key>
