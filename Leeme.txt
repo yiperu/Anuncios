@@ -98,3 +98,18 @@ import GoogleMobileAds
       self.view.addSubview(googleBannerView!)
      }
 
+
+
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+iAd Banner View en un ViewContrller
+
+
+
+
+
+
+
+
+

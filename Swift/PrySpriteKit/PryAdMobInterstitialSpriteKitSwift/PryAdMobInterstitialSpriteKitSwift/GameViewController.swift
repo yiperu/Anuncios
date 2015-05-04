@@ -37,13 +37,14 @@ class GameViewController: UIViewController {
     super.viewDidLoad()
     
     
-    // Creamos la variable:
+    // Creamos la variable para intertitial:
     self.interstitial = self.crearYCargar()
     
     var variable = GADRequest.sdkVersion()
     println("Google Mobile Ads SDK version: \(variable)")
     // MARK: El Observador del NSNotificationCenter
     NSNotificationCenter.defaultCenter().addObserver(self, selector: "metodoShowPublicidad:", name: "verAnuncio", object: nil)
+    
     
     if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
       // Configure the view.
@@ -60,6 +61,9 @@ class GameViewController: UIViewController {
       skView.presentScene(scene)
     }
   }
+  
+  
+  
   
   override func shouldAutorotate() -> Bool {
     return true
