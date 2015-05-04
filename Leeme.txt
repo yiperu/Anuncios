@@ -104,6 +104,8 @@ import GoogleMobileAds
 // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 iAd Banner View en un ViewContrller
+Tener en cuenta que para caulquier proyecto q sea, debemos agregar el framawork:  iAd.framework
+
 
 
 

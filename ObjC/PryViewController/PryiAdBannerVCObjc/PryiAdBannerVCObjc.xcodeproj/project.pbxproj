@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8F20B41AF7C62600533785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F20B31AF7C62600533785 /* main.m */; };
+		1E8F20B71AF7C62600533785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F20B61AF7C62600533785 /* AppDelegate.m */; };
+		1E8F20BA1AF7C62600533785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F20B91AF7C62600533785 /* ViewController.m */; };
+		1E8F20BD1AF7C62600533785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8F20BB1AF7C62600533785 /* Main.storyboard */; };
+		1E8F20BF1AF7C62600533785 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8F20BE1AF7C62600533785 /* Images.xcassets */; };
+		1E8F20C21AF7C62600533785 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8F20C01AF7C62600533785 /* LaunchScreen.xib */; };
+		1E8F20CE1AF7C62600533785 /* PryiAdBannerVCObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F20CD1AF7C62600533785 /* PryiAdBannerVCObjcTests.m */; };
+		1E8F20D81AF7C65A00533785 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8F20D71AF7C65A00533785 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E8F20C81AF7C62600533785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E8F20A61AF7C62600533785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8F20AD1AF7C62600533785;
+			remoteInfo = PryiAdBannerVCObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8F20AE1AF7C62600533785 /* PryiAdBannerVCObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryiAdBannerVCObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8F20B21AF7C62600533785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8F20B31AF7C62600533785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E8F20B51AF7C62600533785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E8F20B61AF7C62600533785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E8F20B81AF7C62600533785 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E8F20B91AF7C62600533785 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E8F20BC1AF7C62600533785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E8F20BE1AF7C62600533785 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E8F20C11AF7C62600533785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E8F20C71AF7C62600533785 /* PryiAdBannerVCObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PryiAdBannerVCObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8F20CC1AF7C62600533785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8F20CD1AF7C62600533785 /* PryiAdBannerVCObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PryiAdBannerVCObjcTests.m; sourceTree = "<group>"; };
+		1E8F20D71AF7C65A00533785 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8F20AB1AF7C62600533785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8F20D81AF7C65A00533785 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8F20C41AF7C62600533785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8F20A51AF7C62600533785 = {
+			isa = PBXGroup;
+			children = (
+				1E8F20D71AF7C65A00533785 /* iAd.framework */,
+				1E8F20B01AF7C62600533785 /* PryiAdBannerVCObjc */,
+				1E8F20CA1AF7C62600533785 /* PryiAdBannerVCObjcTests */,
+				1E8F20AF1AF7C62600533785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E8F20AF1AF7C62600533785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8F20AE1AF7C62600533785 /* PryiAdBannerVCObjc.app */,
+				1E8F20C71AF7C62600533785 /* PryiAdBannerVCObjcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8F20B01AF7C62600533785 /* PryiAdBannerVCObjc */ = {
+			isa = PBXGroup;
+			children = (
+				1E8F20B51AF7C62600533785 /* AppDelegate.h */,
+				1E8F20B61AF7C62600533785 /* AppDelegate.m */,
+				1E8F20B81AF7C62600533785 /* ViewController.h */,
+				1E8F20B91AF7C62600533785 /* ViewController.m */,
+				1E8F20BB1AF7C62600533785 /* Main.storyboard */,
+				1E8F20BE1AF7C62600533785 /* Images.xcassets */,
+				1E8F20C01AF7C62600533785 /* LaunchScreen.xib */,
+				1E8F20B11AF7C62600533785 /* Supporting Files */,
+			);
+			path = PryiAdBannerVCObjc;
+			sourceTree = "<group>";
+		};
+		1E8F20B11AF7C62600533785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8F20B21AF7C62600533785 /* Info.plist */,
+				1E8F20B31AF7C62600533785 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E8F20CA1AF7C62600533785 /* PryiAdBannerVCObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E8F20CD1AF7C62600533785 /* PryiAdBannerVCObjcTests.m */,
+				1E8F20CB1AF7C62600533785 /* Supporting Files */,
+			);
+			path = PryiAdBannerVCObjcTests;
+			sourceTree = "<group>";
+		};
+		1E8F20CB1AF7C62600533785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8F20CC1AF7C62600533785 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E8F20AD1AF7C62600533785 /* PryiAdBannerVCObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8F20D11AF7C62600533785 /* Build configuration list for PBXNativeTarget "PryiAdBannerVCObjc" */;
+			buildPhases = (
+				1E8F20AA1AF7C62600533785 /* Sources */,
+				1E8F20AB1AF7C62600533785 /* Frameworks */,
+				1E8F20AC1AF7C62600533785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PryiAdBannerVCObjc;
+			productName = PryiAdBannerVCObjc;
+			productReference = 1E8F20AE1AF7C62600533785 /* PryiAdBannerVCObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E8F20C61AF7C62600533785 /* PryiAdBannerVCObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8F20D41AF7C62600533785 /* Build configuration list for PBXNativeTarget "PryiAdBannerVCObjcTests" */;
+			buildPhases = (
+				1E8F20C31AF7C62600533785 /* Sources */,
+				1E8F20C41AF7C62600533785 /* Frameworks */,
+				1E8F20C51AF7C62600533785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E8F20C91AF7C62600533785 /* PBXTargetDependency */,
+			);
+			name = PryiAdBannerVCObjcTests;
+			productName = PryiAdBannerVCObjcTests;
+			productReference = 1E8F20C71AF7C62600533785 /* PryiAdBannerVCObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E8F20A61AF7C62600533785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Apps4s;
+				TargetAttributes = {
+					1E8F20AD1AF7C62600533785 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1E8F20C61AF7C62600533785 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1E8F20AD1AF7C62600533785;
+					};
+				};
+			};
+			buildConfigurationList = 1E8F20A91AF7C62600533785 /* Build configuration list for PBXProject "PryiAdBannerVCObjc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E8F20A51AF7C62600533785;
+			productRefGroup = 1E8F20AF1AF7C62600533785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E8F20AD1AF7C62600533785 /* PryiAdBannerVCObjc */,
+				1E8F20C61AF7C62600533785 /* PryiAdBannerVCObjcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8F20AC1AF7C62600533785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8F20BD1AF7C62600533785 /* Main.storyboard in Resources */,
+				1E8F20C21AF7C62600533785 /* LaunchScreen.xib in Resources */,
+				1E8F20BF1AF7C62600533785 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8F20C51AF7C62600533785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8F20AA1AF7C62600533785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8F20BA1AF7C62600533785 /* ViewController.m in Sources */,
+				1E8F20B71AF7C62600533785 /* AppDelegate.m in Sources */,
+				1E8F20B41AF7C62600533785 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8F20C31AF7C62600533785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8F20CE1AF7C62600533785 /* PryiAdBannerVCObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E8F20C91AF7C62600533785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E8F20AD1AF7C62600533785 /* PryiAdBannerVCObjc */;
+			targetProxy = 1E8F20C81AF7C62600533785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E8F20BB1AF7C62600533785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8F20BC1AF7C62600533785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E8F20C01AF7C62600533785 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8F20C11AF7C62600533785 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E8F20CF1AF7C62600533785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E8F20D01AF7C62600533785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E8F20D21AF7C62600533785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PryiAdBannerVCObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E8F20D31AF7C62600533785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PryiAdBannerVCObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E8F20D51AF7C62600533785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PryiAdBannerVCObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PryiAdBannerVCObjc.app/PryiAdBannerVCObjc";
+			};
+			name = Debug;
+		};
+		1E8F20D61AF7C62600533785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PryiAdBannerVCObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PryiAdBannerVCObjc.app/PryiAdBannerVCObjc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8F20A91AF7C62600533785 /* Build configuration list for PBXProject "PryiAdBannerVCObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8F20CF1AF7C62600533785 /* Debug */,
+				1E8F20D01AF7C62600533785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8F20D11AF7C62600533785 /* Build configuration list for PBXNativeTarget "PryiAdBannerVCObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8F20D21AF7C62600533785 /* Debug */,
+				1E8F20D31AF7C62600533785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E8F20D41AF7C62600533785 /* Build configuration list for PBXNativeTarget "PryiAdBannerVCObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8F20D51AF7C62600533785 /* Debug */,
+				1E8F20D61AF7C62600533785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E8F20A61AF7C62600533785 /* Project object */;
+}
