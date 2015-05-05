@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8482788A-78CF-4800-9385-5771BF2DE831</string>
+	<string>E4C409CC-249E-462F-95AB-72B8ABC57DD6</string>
 	<key>IDESourceControlProjectName</key>
 	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>github.com:yiperu/Anuncios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swift/PrySpriteKit/PryAdMobSpritekitSwift/PryAdMobSpritekitSwift.xcodeproj/project.xcworkspace</string>
+	<string>Swift/PryViewController/PryiAdBannerSimpleVCSwift/PryiAdBannerSimpleVCSwift.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>721DF3EBD4A6441B84F9494582EFB42A9A00ABEE</key>
